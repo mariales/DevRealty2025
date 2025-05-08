@@ -51,6 +51,48 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
+				"name": "CalcAvgPriceMenuItem",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(CalcAvgPriceMenuItem_caption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"icon": "actions-button-icon",
+					"menuItems": [],
+					"clickMode": "menu"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MenuItem_pm0s1wc",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_pm0s1wc_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrCalcAvgRealtyPriceProccess",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"recordIdProcessParameterName": "RealtyId"
+						}
+					},
+					"icon": "calculator-icon"
+				},
+				"parentName": "CalcAvgPriceMenuItem",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "UsrName",
 				"values": {
 					"layoutConfig": {

@@ -6,6 +6,7 @@
 			<Item Name="LocalizableStrings.addRecord_7495fap_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_qko9xcg_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.AreaCannotBeLess.Value" Value="Area cannot be less than 0 sq ft" />
+			<Item Name="LocalizableStrings.CalcAvgPriceMenuItem_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.ExpansionPanel_sxsjqs3_title.Value" Value="Realty visit" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_qh4iu7i_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_vq0tktn_caption.Value" Value="Export to Excel" />
@@ -13,6 +14,7 @@
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_x6lwea5_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_20wyi8g_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_75fj314_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.MenuItem_pm0s1wc_caption.Value" Value="calculate average item" />
 			<Item Name="LocalizableStrings.NumberInput_39uo7be_label.Value" Value="Number" />
 			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 0 USD" />
 			<Item Name="LocalizableStrings.PriceMin_caption.Value" Value="Price Min" />
